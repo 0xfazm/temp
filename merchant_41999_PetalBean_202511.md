@@ -58,7 +58,7 @@
 
 **Trend chart note:** Last 12 calendar months ending at the selected month; missing months are plotted as **0**.
 
-![CLTV Trend](charts/merchant_41999_cltv.png)
+![CLTV Trend](/merchant_41999_cltv.png)
 
 ---
 
@@ -69,7 +69,7 @@
 **Active + At Risk + Churned:** 88 + 33 + 171 = 292  
 **Reconciliation:** PASS
 
-![Customer Status](charts/merchant_41999_status.png)
+![Customer Status](/merchant_41999_status.png)
 
 ---
 
@@ -402,7 +402,7 @@ This section shows staff performance and transaction activity for 2025-11.
 | vouchers | 0 | inferred_from_voucher_records | 0 | 0 | NULL | 0 | NULL | influenced_value_not_available_no_attribution_fields |
 
 
-![Feature Usage](charts/merchant_41999_features.png)
+![Feature Usage](/merchant_41999_features.png)
 
 ---
 
