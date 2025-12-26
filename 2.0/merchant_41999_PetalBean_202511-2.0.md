@@ -16,7 +16,7 @@
 
 - **Program Health**: ⚠️ Critical — churn rate 27.17% exceeds 25.0% Churn at this level suggests declining engagement and should be addressed within the next 1–2 months to prevent further value erosion.
 - **Net Attributed Value**: 528.315 BD (594.265 BD gross, 65.95 BD redemption costs) ↑ 11.7% vs 2025-10
-- **Trend vs Last Month**: Net Value: ↑ 11.7%, Active Users: ↓ 4.3%, Churn Rate: ↓ 0.2 percentage points
+- **Trend vs Last Month**: Net Value: ↑ 11.7%, Active Users: ↓ 4.3%
 - **Customer Status**: 88 Active (30.1%), 33 At Risk (11.3%), 171 Churned (58.6%)
 - **Focus This Month**: 33 At-Risk customers need re-engagement; 25 newly churned
 
@@ -57,13 +57,13 @@
 
 **What decision can be made from this?** Plan reward budget and set expectations for program value over the next 6 months. **NOT a financial guarantee.**
 
-- **Projected Gross Value**: 769 BD
-- **Projected Net Value**: 699 BD
+- **Projected Gross Value**: 952 BD
+- **Projected Net Value**: 854 BD
 
 - **Scenario band (illustrative)**:
-  - Conservative (−30%): 538 BD gross, 489 BD net
-  - Base: 769 BD gross, 699 BD net
-  - Optimistic (+20%): 923 BD gross, 838 BD net
+  - Conservative (−30%): 667 BD gross, 598 BD net
+  - Base: 952 BD gross, 854 BD net
+  - Optimistic (+20%): 1143 BD gross, 1025 BD net
   *Scenario bands are heuristic stress tests, not statistical confidence intervals. Internal statistical confidence intervals exist but are not surfaced in this report.*
 
 **Method:** churn-adjusted_run_rate (non-cohort)  
@@ -135,11 +135,11 @@
 | 3 | LL3HD26 | Active | 0 | 36.95 | 51.972 |
 | 4 | L0LX4MO | Active | 2 | 31.5 | 50.025 |
 | 5 | LV5UT4X | Active | 1 | 3.8 | 46.184 |
-| 6 | L2UXZE7 | Active | 1 | 11.9 | 37.206 |
-| 7 | L4VAPE9 | Active | 21 | 11.4 | 25.638 |
-| 8 | L071N0M | Active | 5 | 7.9 | 20.952 |
-| 9 | LCLEMWX | Active | 17 | 5.8 | 20.055 |
-| 10 | LXXS2NW | Active | 3 | 1.4 | 16.481 |
+| 6 | LC08ZV2 | Churned | 101 | 0.0 | 39.529 |
+| 7 | L2UXZE7 | Active | 1 | 11.9 | 37.206 |
+| 8 | L4VAPE9 | Active | 21 | 11.4 | 25.638 |
+| 9 | L071N0M | Active | 5 | 7.9 | 20.952 |
+| 10 | LCLEMWX | Active | 17 | 5.8 | 20.055 |
 
 
 
@@ -148,21 +148,21 @@
 
 
 
-*Note: These users generated no qualifying value in the current month; forecast is zero by design.*
+*Note: These users generated no qualifying value in the current month (CLTV (month) = 0), but their forecast is calculated based on historical average spending to enable prioritization of re-engagement campaigns.*
 
 
 | User ID | Days Since Activity | CLTV (month) | Forecast (6m) |
 |---:|---:|---:|---:|
-| L199H9F | 74 | 0.0 | 0.0 |
-| L1CAKEH | 66 | 0.0 | 0.0 |
-| L37WO82 | 64 | 0.0 | 0.0 |
-| L4TF4T2 | 66 | 0.0 | 0.0 |
-| L5WN4R3 | 81 | 0.0 | 0.0 |
-| L60JUKI | 61 | 0.0 | 0.0 |
-| L650O62 | 89 | 0.0 | 0.0 |
-| L7RJI25 | 64 | 0.0 | 0.0 |
-| L8MBL8X | 80 | 0.0 | 0.0 |
-| L8N71EB | 74 | 0.0 | 0.0 |
+| LW0N412 | 81 | 0.0 | 12.73 |
+| L5WN4R3 | 81 | 0.0 | 6.476 |
+| LV5AXUD | 83 | 0.0 | 3.573 |
+| LS6BK62 | 87 | 0.0 | 3.35 |
+| LLGXG1S | 72 | 0.0 | 2.725 |
+| LYOTGVZ | 70 | 0.0 | 2.635 |
+| LPM5LRZ | 61 | 0.0 | 2.055 |
+| LLY6BXN | 64 | 0.0 | 2.01 |
+| LVA7TSE | 78 | 0.0 | 1.965 |
+| LFRBDBI | 66 | 0.0 | 1.831 |
 
 
 ---
@@ -174,36 +174,36 @@
 
 
 
-### L199H9F
+### LPM5LRZ
 
 Transaction Activity:
-- First transaction: Apr 27, 2025
-- Most recent transaction: Sep 17, 2025
-- Last transaction details: Sep 17, 2025 15:04 — collect_points (value=2.70, points=3)
+- First transaction: Apr 11, 2025
+- Most recent transaction: Sep 30, 2025
+- Last transaction details: Sep 30, 2025 21:04 — collect_points (value=4.60, points=5)
+- Transaction pattern: less than 1 transaction per week
+- Average transaction value: ~4.60 BD
+- Current status: At Risk — needs re-engagement
+
+
+### LLGXG1S
+
+Transaction Activity:
+- First transaction: Apr 23, 2025
+- Most recent transaction: Sep 19, 2025
+- Last transaction details: Sep 19, 2025 13:23 — collect_points (value=6.10, points=6)
+- Transaction pattern: less than 1 transaction per week
+- Average transaction value: ~6.10 BD
+- Current status: At Risk — needs re-engagement
+
+
+### LVA7TSE
+
+Transaction Activity:
+- First transaction: Jun 04, 2025
+- Most recent transaction: Sep 13, 2025
+- Last transaction details: Sep 13, 2025 16:15 — collect_points (value=2.70, points=3)
 - Transaction pattern: less than 1 transaction per week
 - Average transaction value: ~2.70 BD
-- Current status: At Risk — needs re-engagement
-
-
-### L60JUKI
-
-Transaction Activity:
-- First transaction: Sep 30, 2025
-- Most recent transaction: Sep 30, 2025
-- Last transaction details: Sep 30, 2025 10:03 — collect_points (value=8.40, points=8)
-- Transaction pattern: less than 1 transaction per week
-- Average transaction value: ~8.40 BD
-- Current status: At Risk — needs re-engagement
-
-
-### L8N71EB
-
-Transaction Activity:
-- First transaction: Sep 17, 2025
-- Most recent transaction: Sep 17, 2025
-- Last transaction details: Sep 17, 2025 10:24 — collect_points (value=5.70, points=6)
-- Transaction pattern: less than 1 transaction per week
-- Average transaction value: ~5.70 BD
 - Current status: At Risk — needs re-engagement
 
 
@@ -218,39 +218,6 @@ Transaction Activity:
 - Current status: Active and transacting regularly
 
 
-### L8MBL8X
-
-Transaction Activity:
-- First transaction: Jul 08, 2025
-- Most recent transaction: Sep 11, 2025
-- Last transaction details: Sep 11, 2025 19:20 — collect_points (value=2.50, points=2)
-- Transaction pattern: less than 1 transaction per week
-- Average transaction value: ~2.50 BD
-- Current status: At Risk — needs re-engagement
-
-
-### L1CAKEH
-
-Transaction Activity:
-- First transaction: Jul 25, 2025
-- Most recent transaction: Sep 25, 2025
-- Last transaction details: Sep 25, 2025 21:50 — collect_points (value=5.70, points=6)
-- Transaction pattern: less than 1 transaction per week
-- Average transaction value: ~5.70 BD
-- Current status: At Risk — needs re-engagement
-
-
-### L4TF4T2
-
-Transaction Activity:
-- First transaction: Sep 25, 2025
-- Most recent transaction: Sep 25, 2025
-- Last transaction details: Sep 25, 2025 22:05 — collect_points (value=2.20, points=2)
-- Transaction pattern: less than 1 transaction per week
-- Average transaction value: ~2.20 BD
-- Current status: At Risk — needs re-engagement
-
-
 ### LCLEMWX
 
 Transaction Activity:
@@ -260,6 +227,17 @@ Transaction Activity:
 - Transaction pattern: typically 1–2 transactions per week
 - Average transaction value: ~5.49 BD
 - Current status: Active and transacting regularly
+
+
+### LW0N412
+
+Transaction Activity:
+- First transaction: Apr 10, 2025
+- Most recent transaction: Sep 10, 2025
+- Last transaction details: Sep 10, 2025 11:40 — collect_points (value=1.90, points=2)
+- Transaction pattern: less than 1 transaction per week
+- Average transaction value: ~4.53 BD
+- Current status: At Risk — needs re-engagement
 
 
 ### LTGMVTK
@@ -317,25 +295,36 @@ Transaction Activity:
 - Current status: Active and transacting regularly
 
 
-### LXXS2NW
+### LC08ZV2
 
 Transaction Activity:
-- First transaction: Apr 21, 2025
-- Most recent transaction: Nov 27, 2025
-- Last transaction details: Nov 27, 2025 11:24 — redeem_points (value=-2.00, points=13)
-- Transaction pattern: typically 1–2 transactions per week
-- Average transaction value: ~2.18 BD
-- Current status: Active and transacting regularly
-
-
-### L650O62
-
-Transaction Activity:
-- First transaction: Apr 27, 2025
-- Most recent transaction: Sep 02, 2025
-- Last transaction details: Sep 02, 2025 21:38 — redeem_points (value=-1.20, points=12)
-- Transaction pattern: less than 1 transaction per week
+- First transaction: Apr 24, 2025
+- Most recent transaction: Aug 21, 2025
+- Last transaction details: Aug 21, 2025 23:24 — collect_points (value=13.00, points=13)
+- Transaction pattern: inactive (last transaction 101 days ago)
 - Average transaction value: —
+- Current status: Churned — no recent qualifying transactions
+
+
+### LS6BK62
+
+Transaction Activity:
+- First transaction: Apr 28, 2025
+- Most recent transaction: Sep 04, 2025
+- Last transaction details: Sep 04, 2025 19:44 — collect_points (value=7.50, points=8)
+- Transaction pattern: less than 1 transaction per week
+- Average transaction value: ~7.50 BD
+- Current status: At Risk — needs re-engagement
+
+
+### LYOTGVZ
+
+Transaction Activity:
+- First transaction: Jun 15, 2025
+- Most recent transaction: Sep 21, 2025
+- Last transaction details: Sep 21, 2025 11:38 — redeem_points (value=-1.40, points=14)
+- Transaction pattern: less than 1 transaction per week
+- Average transaction value: ~2.80 BD
 - Current status: At Risk — needs re-engagement
 
 
@@ -350,6 +339,17 @@ Transaction Activity:
 - Current status: At Risk — needs re-engagement
 
 
+### LLY6BXN
+
+Transaction Activity:
+- First transaction: Jun 25, 2025
+- Most recent transaction: Sep 27, 2025
+- Last transaction details: Sep 27, 2025 12:13 — collect_points (value=7.70, points=8)
+- Transaction pattern: less than 1 transaction per week
+- Average transaction value: ~8.10 BD
+- Current status: At Risk — needs re-engagement
+
+
 ### LV5UT4X
 
 Transaction Activity:
@@ -359,17 +359,6 @@ Transaction Activity:
 - Transaction pattern: typically 3–4 transactions per week
 - Average transaction value: ~2.21 BD
 - Current status: Active and transacting regularly
-
-
-### L37WO82
-
-Transaction Activity:
-- First transaction: Aug 16, 2025
-- Most recent transaction: Sep 27, 2025
-- Last transaction details: Sep 27, 2025 17:10 — collect_points (value=2.50, points=2)
-- Transaction pattern: less than 1 transaction per week
-- Average transaction value: ~2.50 BD
-- Current status: At Risk — needs re-engagement
 
 
 ### L4VAPE9
@@ -383,14 +372,25 @@ Transaction Activity:
 - Current status: Active with low recent transaction activity
 
 
-### L7RJI25
+### LV5AXUD
 
 Transaction Activity:
-- First transaction: Sep 27, 2025
-- Most recent transaction: Sep 27, 2025
-- Last transaction details: Sep 27, 2025 16:34 — collect_points (value=5.30, points=5)
+- First transaction: Jul 28, 2025
+- Most recent transaction: Sep 08, 2025
+- Last transaction details: Sep 08, 2025 18:47 — collect_points (value=1.50, points=2)
 - Transaction pattern: less than 1 transaction per week
-- Average transaction value: ~5.30 BD
+- Average transaction value: ~3.65 BD
+- Current status: At Risk — needs re-engagement
+
+
+### LFRBDBI
+
+Transaction Activity:
+- First transaction: Aug 21, 2025
+- Most recent transaction: Sep 25, 2025
+- Last transaction details: Sep 25, 2025 12:02 — collect_points (value=4.10, points=4)
+- Transaction pattern: less than 1 transaction per week
+- Average transaction value: ~4.10 BD
 - Current status: At Risk — needs re-engagement
 
 
@@ -572,7 +572,7 @@ This section shows staff performance and transaction activity for 2025-11.
 
 - **snapshot_last_activity_ts_after_month_end**: 0 (pass) — Snapshot integrity: last_activity_ts must be <= month_end_ts_utc
 
-- **forecast_guardrail_violations**: 0 (pass) — At Risk/Churned users with 0 current-month gross value must not have positive forecast
+- **at_risk_customers_with_forecast**: 46 (pass) — At Risk/Churned users with 0 current-month gross value but positive forecast (based on historical average) - enables re-engagement prioritization
 
 - **merchant_collect_total_value**: 594.265 (info) — Collect points + collect stamps (receipt/proxy) total
 
