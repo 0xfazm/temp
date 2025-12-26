@@ -15,8 +15,8 @@
 
 
 - **Program Health**: ⚠️ Critical — churn rate 27.17% exceeds 25.0% Churn at this level suggests declining engagement and should be addressed within the next 1–2 months to prevent further value erosion.
-- **Net Attributed Value**: 528.315 BD (594.265 BD gross, 65.95 BD redemption costs)
-- **Trend vs Last Month**: (no previous month data available)
+- **Net Attributed Value**: 528.315 BD (594.265 BD gross, 65.95 BD redemption costs) ↑ 11.7% vs 2025-10
+- **Trend vs Last Month**: Net Value: ↑ 11.7%, Active Users: ↓ 4.3%, Churn Rate: ↓ 0.2 percentage points
 - **Customer Status**: 88 Active (30.1%), 33 At Risk (11.3%), 171 Churned (58.6%)
 - **Focus This Month**: 33 At-Risk customers need re-engagement; 25 newly churned
 
@@ -29,7 +29,7 @@
 **What decision can be made from this?** Budget reward costs for next month and assess if redemption rate is sustainable relative to gross value.
 
 - **Gross Attributed Value**: 594.265 BD  
-  *Attributed sum of in-scope purchase-linked events. Includes receipt amounts when present; may include proxy amounts when receipt is missing.*
+  *Attributed sum of in-scope purchase-linked events. Includes receipt amounts when present; may include proxy amounts (estimated fallback values) when receipt is missing or zero.*
 
 - **Redemption Costs**: 65.95 BD  
   *Value of rewards claimed (points redeemed, cash redeemed)*
@@ -45,6 +45,8 @@
 
 
 ### Points Value Transparency
+
+**Note:** Points programs use receipt amounts directly. Events without receipt amounts are excluded from value calculation (not assigned a proxy). **100% receipt-based means all events have valid receipt data** — this indicates excellent data quality.
 
 - **Points collect events (month)**: 180
 - **Points value derived from receipts**: 100%
