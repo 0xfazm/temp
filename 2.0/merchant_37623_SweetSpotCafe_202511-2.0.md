@@ -15,8 +15,8 @@
 
 
 - **Program Health**: ✅ Healthy — churn rate 10.70%
-- **Net Attributed Value**: 3122.9 BD (3616.8 BD gross, 493.9 BD redemption costs)
-- **Trend vs Last Month**: (no previous month data available)
+- **Net Attributed Value**: 3122.9 BD (3616.8 BD gross, 493.9 BD redemption costs) ↓ 1.4% vs 2025-10
+- **Trend vs Last Month**: Net Value: ↓ 1.4%, Active Users: ↑ 7.6%, Churn Rate: ↓ 1.5 percentage points
 - **Customer Status**: 1237 Active (53.9%), 221 At Risk (9.6%), 839 Churned (36.5%)
 - **Focus This Month**: 221 At-Risk customers need re-engagement; 123 newly churned
 
@@ -29,7 +29,7 @@
 **What decision can be made from this?** Budget reward costs for next month and assess if redemption rate is sustainable relative to gross value.
 
 - **Gross Attributed Value**: 3616.8 BD  
-  *Attributed sum of in-scope purchase-linked events. Includes receipt amounts when present; may include proxy amounts when receipt is missing.*
+  *Attributed sum of in-scope purchase-linked events. Includes receipt amounts when present; may include proxy amounts (estimated fallback values) when receipt is missing or zero.*
 
 - **Redemption Costs**: 493.9 BD  
   *Value of rewards claimed (points redeemed, cash redeemed)*
@@ -53,6 +53,9 @@
 
 
 ### Stamp Receipt vs Proxy (Transparency)
+
+**What is "Proxy"?**  
+A proxy value is an **estimated fallback amount** used when the actual transaction receipt amount is missing or zero. Instead of excluding these events (which would undercount value), the system estimates the value using: `num_of_stamps × avg_bd_per_stamp` (merchant-specific average if available, otherwise global fallback). **0% proxy usage means all events have valid receipt data** — this indicates excellent data quality.
 
 - **Stamp collect events (month)**: 2652
 - **Stamp collect events using proxy**: 0
